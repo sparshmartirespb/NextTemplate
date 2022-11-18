@@ -3,14 +3,10 @@ const Footer = () => {
     <footer className="wrapper">
       <div className="flex">
         <p>
-          {new Date().getFullYear()} -{" "}
-          <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-            Pure Billion Next Boilerplate
-          </a>
+          {new Date().getFullYear()} - <p>Pure Billion Next Boilerplate</p>
         </p>
       </div>
     </footer>
-  )
-}
-
-export default Footer
+  );
+};
+export default Footer;
