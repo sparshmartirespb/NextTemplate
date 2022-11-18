@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import type { ReactNode } from "react";
 
 type AnchorLinkProps = {
@@ -13,7 +12,7 @@ const AnchorLink = ({ href, children, className }: AnchorLinkProps) => {
       href={href}
       target="_blank"
       rel="noreferrer noopener"
-      className={clsx("", className)}
+      className={className}
     >
       {children}
     </a>
